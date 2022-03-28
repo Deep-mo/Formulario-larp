@@ -1,0 +1,86 @@
+body{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header{
+    display: flex;
+    justify-content:center;
+    background-color: white;
+    
+}
+/*ICONES ABAIXO*/
+.icone{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1%;
+}
+.icone-inicio{
+    width: 10%;
+    height: 50%;
+}
+.icone-contato{
+    width: 10%;
+    height: 50%;
+}
+.icone-espada{
+    width: 20%;
+    height: 50%;
+    
+}
+.icone-mapa{
+    width: 20%;
+    height: 40%;
+}
+.icone-novidades{
+    width: 10%;
+    height: 50%;
+}
+
+/*iCONES ACIMA*/
+
+.sessao1{
+    display: flex;
+    flex-direction: row;
+    max-width: fit-content;
+    margin-top: 5%;
+    max-height: 90%;
+}
+/*SESSÃO ESQUERDA ABAIXO*/
+.esquerda{
+    width: 60%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: bisque;
+    padding: 10%;
+    height: 70%;
+    margin-top: 10%;
+    
+}
+.texto-esquerdo{
+    background-color:rgb(248, 235, 220);
+    padding: 5%;
+}
+.esquerda h1{
+
+    font-weight: 900;
+}
+#botao-input:hover{
+    background-color: rgba(153, 152, 152, 0.815);
+}
+
+
+
+
+
+
+
+/*SESSSÃO DIREITA ABAIXO*/
+
+.imagen-direita{
+    width:90%;
+    height: 110%;
+    margin-top:-5%
+}
